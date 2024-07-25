@@ -1,0 +1,49 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    width: 350px;
+    gap: 30px;
+    border-radius: 30px;
+    padding: 40px 15px;
+}
+#one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 20px;
+    gap: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 2px black solid;
+    width: 250px;
+}
+#two{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    button{
+        height: 50px;
+        width: 60px;
+        background-color: rgba(101, 188, 208, 0.473);
+        border-radius: 20px;
+        font-size: 20px;
+        border-color:rgba(101, 188, 208, 0.473) ;
+    }
+    .a{
+        background-color: rgb(53, 145, 119);
+        color: white;
+    }
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
